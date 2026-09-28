@@ -37,16 +37,16 @@
 
 ---
 
-## 🎯 What is S0NAR?
+## What is S0NAR?
 
 **S0NAR** is an all-in-one subdomain reconnaissance and vulnerability
 scanner written in Python. Point it at a domain and it delivers a
-complete picture of the external attack surface — every subdomain,
+complete picture of the external attack surface every subdomain,
 every live host, every open port, every takeover candidate, and every
 vulnerability it can find.
 
 Unlike most recon tools that stop at enumeration, **S0NAR chains the
-entire pipeline into a single command** — from passive discovery to
+entire pipeline into a single command** from passive discovery to
 vulnerability confirmation — and presents everything in a clean,
 color-coded terminal UI.
 
@@ -72,11 +72,11 @@ That's it. One command. Full attack surface.
 
 ### Why S0NAR?
 
-- **Async-first** — 5–10× faster than threaded recon tools
-- **Graceful degradation** — works with just Python; unlocks more when backends exist
-- **Takeover detection** — confirmed by fingerprint matching, not just CNAME heuristics
-- **Real enrichment** — IP, ASN, geolocation, TLS — not just a hostname list
-- **Beautiful output** — Rich-powered tables you actually want to look at
+- **Async-first** 5–10× faster than threaded recon tools
+- **Graceful degradation** works with just Python; unlocks more when backends exist
+- **Takeover detection** confirmed by fingerprint matching, not just CNAME heuristics
+- **Real enrichment** IP, ASN, geolocation, TLS not just a hostname list
+- **Beautiful output** Rich-powered tables you actually want to look at
 
 ---
 
@@ -130,7 +130,7 @@ That's it. One command. Full attack surface.
 
 ── SCAN SUMMARY ───────────────────────────────────────────────────────
 ╭──────────────────────────┬────────╮
-│ Target:                  │ example.com │
+│ Target:                  │ ab.com │
 │ Duration:                │ 134.2s │
 │                          │        │
 │ Total discovered:        │ 118    │
@@ -424,9 +424,9 @@ For bug reports, please include:
 
 ## 🐛 Known Issues
 
-- Windows native is untested — use **WSL** for now
-- SYN port scans require **root/sudo** — falls back to connect scan if not elevated
-- `ip-api.com` free tier allows **45 req/min** — very large scans may
+- Windows native is untested use **WSL** for now
+- SYN port scans require **root/sudo** falls back to connect scan if not elevated
+- `ip-api.com` free tier allows **45 req/min** very large scans may
   see temporary throttling (S0NAR retries with backoff)
 
 ---
