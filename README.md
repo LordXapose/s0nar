@@ -1,5 +1,7 @@
+# README.md — S0NAR
 
 
+---
 
 ```markdown
 <div align="center">
@@ -403,7 +405,7 @@ By using S0NAR, you agree to:
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome. Please follow these steps:
 
@@ -423,7 +425,7 @@ For bug reports, please include:
 
 ---
 
-## Known Issues
+## 🐛 Known Issues
 
 - Windows native is untested — use **WSL** for now
 - SYN port scans require **root/sudo** — falls back to connect scan if not elevated
@@ -432,7 +434,7 @@ For bug reports, please include:
 
 ---
 
-## License
+## 📜 License
 
 MIT License © 2026 [LordXapose](https://github.com/LordXapose)
 
@@ -440,7 +442,7 @@ See [LICENSE](LICENSE) for the full text.
 
 ---
 
-## Credits
+## 🙏 Credits
 
 - **Author:** [LordXapose](https://github.com/LordXapose)
 - **UI:** [Rich](https://github.com/Textualize/rich) by Will McGugan
@@ -468,10 +470,10 @@ See [LICENSE](LICENSE) for the full text.
 </div>
 ```
 
-
 ---
 
-## What's Next
+
+##  What's Next
 
 Drop this file into your repo root, then we move on to the source files
 in this order:
